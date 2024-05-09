@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 50%;
+}
+
+h1 {
+  padding: 50px 0;
+}
+
+h2 {
+  padding: 30px 0;
+}
+
+form {
+  position: relative;
+  padding: 0 0 30px 0;
+}
+form input {
+  padding: 10px 15px;
+}
+form button {
+  padding: 10px 15px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+form .message-error {
+  color: red;
+  position: absolute;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#tabelaJogos {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px 0;
+}
+#tabelaJogos td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+#tabelaJogos tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 90%;
+  }
+  .container form {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
